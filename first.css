@@ -1,0 +1,61 @@
+body{
+    box-sizing: border-box;
+    background-image: url(IMG_20230923_191758_379.jpg);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-position: center;
+    width: 1200px;
+    height: 580px;
+    margin: 0;
+}
+.bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    background-color: black;
+    width: 106.5%;
+    height: 45px;
+    overflow: hidden;
+
+
+}
+.home {
+    margin : 10px;
+    margin-right: 70px;
+    font-size: 25px;
+    color :white;
+}
+#home{
+   font-size: 30px;
+}
+#cont{
+    background-color: white;
+    position: absolute;
+    bottom: 250px;
+    right: 100px;
+}
+a{
+    color: none;
+}
+a:hover{
+color: blue;
+
+}
+.home:hover{
+    border-bottom: 3px solid white;
+    overflow: hidden;
+}
+#links{
+    font-size: 30px;
+}
+i{
+font-size: 40px;
+margin-left: 5px;}
+.fa-github:hover{
+    color: #3d9bff;
+
+}
+.fa-square-instagram:hover{
+    color: rgb(219, 71, 165);
+}
+
